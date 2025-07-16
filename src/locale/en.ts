@@ -15,8 +15,9 @@ export const enTranslation: Translation = {
   VIEW_PDF: 'View LaTeX PDF',
 
   DETAIL: 'Detail',
-  NO_WORKSPACE_ERROR: 'No workspace found. Please open a workspace first.',
-  LOGIN_SUCCEEDED: 'Login to Cloud LaTeX succeeded.',
+  NO_WORKSPACE_ERROR: 'You haven\'t opened the workspace. Open one to continue',
+  LOGIN_SUCCEEDED: 'Successfully logged in to Cloud LaTeX',
+  //finished
   LOGIN_FAILED: `Login to Cloud LaTeX failed. 
   Please generate a token from the Cloud LaTeX web site and enter the generated token from the \'Set Account\' button on the lower right.
   (* The token will be deactivated after a certain period of time. In that case, you need to generate token again.)`,
